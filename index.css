@@ -1,0 +1,120 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Inter', sans-serif;
+  background-image: linear-gradient(to bottom, #97DDE8, #134D80);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased; /* For WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* For macOS browsers */
+  font-smooth: always;
+  text-rendering: optimizeLegibility; /* Improves kerning and ligatures */
+  text-rendering: geometricPrecision; /* For sharper rendering */
+  align-items: center;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 32px -12px #5f4a2e1f, 0 4px 6px #5f4a2e0a, 0 2px 3px #5f4a2e0a, 0 0 2px #5f4a2e14;
+  margin-top: 20px;
+  align-self: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%; /* Ensure it does not exceed the width of its parent */
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+}
+
+.language-button {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.language-button:hover {
+  background-color: #141414;
+}
+
+.container {
+  margin: 1rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  max-width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-right: 14px;
+  height: 1000px;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.hero-text {
+  font-size: 40px;
+}
+
+p {
+  font-size: 22px;
+  color: #303030;
+  margin-top: 0;
+}
+
+.hero-p-div {
+  max-width: 40%;
+  margin-right: 2rem;
+}
+
+.hero-p {
+  color: black;
+  margin-bottom: 4px;
+}
+
+.img1 {
+  width: 100%; /* Make image responsive */
+  max-width: 60%; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
+  align-items: center;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h1, h2, h3, p {
+  font-weight: 400; /* Normal weight for most text */
+}
+
+h1 {
+  font-weight: 700; /* Bold for headings */
+}
