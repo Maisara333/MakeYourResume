@@ -76,14 +76,15 @@ body {
   height: 1000px;
   width: 100%;
   box-sizing: border-box; /* Ensure padding is included in the width */
+  align-items: center;
 }
 
 .hero-text {
-  font-size: 40px;
+  font-size: 70px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 30px;
   color: #303030;
   margin-top: 0;
 }
@@ -96,19 +97,24 @@ p {
 .hero-p {
   color: black;
   margin-bottom: 4px;
+  font-size: 46px;
 }
 
 .img1 {
   width: 100%; /* Make image responsive */
   max-width: 60%; /* Limit the maximum width */
   height: auto; /* Maintain aspect ratio */
-  align-items: center;
 }
 
 img {
   border-radius: 10px;
-  max-width: 100%; /* Make image responsive */
+  max-width: 70%; /* Make image responsive */
   height: auto; /* Maintain aspect ratio */
+  margin-left: 4rem;
+}
+
+h3 {
+  font-size: 34px;
 }
 
 h1, h2, h3, p {
